@@ -1,17 +1,17 @@
 export const Projects = [
   {
     thumbnail: "./images/modern-bank-website.png",
-    title: "Modern Bank Website",
-    tags: ["ReactJS", "Tailwind CSS"],
+    title: "Modern Cycling Website",
+    tags: ["Angular", "CSS"],
     paragraph:
-      "Introducing my modern Bank website, a dynamic and user-friendly platform developed with cutting-edge technologies. Leveraging the power of React, the website ensures a seamless and responsive user interface, providing an immersive banking experience. The sleek and intuitive design is made possible by the utilization of Tailwind CSS, allowing for efficient styling and a polished aesthetic. ",
-    codelink: "https://github.com/Sstanley45/Modern-Bank-Website-UI_UX",
-    projectLink: "https://modern-bank-website-ui-ux.vercel.app/",
+      "Introducing my modern Cyclist website, a dynamic and user-friendly platform developed with cutting-edge technologies. Leveraging the power of Angular, the website ensures a seamless and responsive user interface, providing an immersive cycling experience. ",
+    codelink: "https://github.com/Mchael254/A-RIDERS-APP",
+    projectLink: "https://ariders.web.app/profile/",
     projectLinkText: "View Project",
   },
   {
     thumbnail: "./images/EcomerceWebsite.png",
-    title: "E-Commerce Electronic Web App",
+    title: "A-Riders Web App",
     tags: [
       "NextJS",
       "ReactJS",
@@ -20,7 +20,7 @@ export const Projects = [
       "Prisma",
       "mongoDB",
       "MaterialUI",
-      "Stripe",
+      "Daraja API",
     ],
     paragraph:
       "A comprehensive online shopping solution built with NextJS to deliver a seamless and efficient user experience. This dynamic platform goes beyond traditional Ecommerce by allowing users to effortlessly browse, order, and purchase high-quality electronics. The integration of NextJS ensures optimal server rendering, enhancing performance and providing users with swift navigation. One of the standout features of this project is its secure payment processing, powered by Stripe.",

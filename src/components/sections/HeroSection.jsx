@@ -14,11 +14,11 @@ const HeroSection = () => {
   return (
     <StyledHeroSection id="hero-section">
       <HeroContent>
-        <h1>Stanley Macharia</h1>
-        <h3>{"{Web Developer}"}</h3>
+        <h1>Michael Otieno</h1>
+        <h3>{"{Software Developer}"}</h3>
         <p>
-          HTML | CSS | JavaScript | React | NodeJS | NextJS | TypeScript |
-          MongoDB | Tailwind CSS | WordPress
+          HTML | CSS | JavaScript | React | NodeJS | Angular | TypeScript |
+          MongoDB | Tailwind CSS | WordPress | NextJS
         </p>
         <div>
           <CTAButton href="#projects">Projects</CTAButton>
@@ -32,15 +32,15 @@ const HeroSection = () => {
       </StyledArrowDown>
       <HeroSocialIcons>
         <SocialIcon
-          href="https://www.linkedin.com/in/stanley-macharia-04733b225/"
+          href="https://www.linkedin.com/in/mike-venum-a830962a1/"
           target="_blank"
         >
           <FaLinkedin />
         </SocialIcon>
-        <SocialIcon href="https://twitter.com/Stano7_" target="_blank">
+        <SocialIcon href="https://x.com/MichealVen23326" target="_blank">
           <FaTwitter />
         </SocialIcon>
-        <SocialIcon href="https://github.com/Sstanley45/" target="_blank">
+        <SocialIcon href="https://github.com/Mchael254/" target="_blank">
           <FaGithub />
         </SocialIcon>
       </HeroSocialIcons>

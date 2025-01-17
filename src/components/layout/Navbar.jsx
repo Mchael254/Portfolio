@@ -30,7 +30,7 @@ const Navbar = () => {
       <Nav scrollDirection={scrollDirection}>
         <div>
           <a href="#hero-section">
-            <Logo src="./images/white.png" alt="logo" />
+          
           </a>
         </div>
         <MenuIcon menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>
@@ -50,8 +50,8 @@ const Navbar = () => {
                 {navItem.isProfile ? (
                   <NavLink href="#hero-section">
                     <Profile>
-                      <img src="./images/profileImg.jpg" alt="stanley" />
-                      <span>Stanley Macharia</span>
+                      <img src="./images/profileImg.jpg" alt="michael" />
+                      <span>Michael Otieno</span>
                     </Profile>
                   </NavLink>
                 ) : null}
@@ -59,16 +59,16 @@ const Navbar = () => {
                 {navItem.hasSocialIcons ? (
                   <SocialIcons>
                     <NavLink
-                      href="https://www.linkedin.com/in/stanley-macharia-04733b225/"
+                      href="https://www.linkedin.com/in/mike-venum-a830962a1/"
                       target="_blank"
                     >
                       <FaLinkedin />
                     </NavLink>
-                    <NavLink href="https://twitter.com/Stano7_" target="_blank">
+                    <NavLink href="https://x.com/MichealVen23326" target="_blank">
                       <FaTwitter />
                     </NavLink>
                     <NavLink
-                      href="https://github.com/Sstanley45/"
+                      href="https://github.com/Mchael254/"
                       target="_blank"
                     >
                       <FaGithub />
@@ -76,7 +76,7 @@ const Navbar = () => {
                   </SocialIcons>
                 ) : null}
                 {navItem.hasCTA ? (
-                  <CTAButton href="./images/resume.pdf" download="Resume">
+                  <CTAButton href="./images/Michael Resume" download="Resume">
                     Download My Resume
                   </CTAButton>
                 ) : null}

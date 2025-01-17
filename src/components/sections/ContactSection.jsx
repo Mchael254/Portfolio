@@ -28,11 +28,11 @@ const ContactSection = () => {
               <i>Let's connect and make your digital goals a reality.</i>
             </p>
             <div>
-              <a href="mailto:yelnatstech@gmail.com">
+              <a href="mailto:michealvenum007@gmail.com">
                 <FaEnvelope />
-                <span>yelnatstech@gmail.com</span>
+                <span>michealvenum007@gmail.com</span>
               </a>
-              <a href="https://www.linkedin.com/in/stanley-macharia-04733b225/">
+              <a href="https://www.linkedin.com/in/mike-venum-a830962a1/">
                 <FaLinkedin />
                 <span>LinkedIn</span>
               </a>

@@ -5,10 +5,10 @@ const TopBanner = () => {
   return (
     <StyledTopBanner>
       <BannerSection showOnMobile>
-        <a href="mailto:yelnatstech@gmail.com">📩 yelnatstech@gmail.com</a>
+        <a href="mailto:yelnatstech@gmail.com">📩 michealvenum007@gmail.com</a>
       </BannerSection>
       <BannerSection>
-        <p>👻Available For Hire</p> 
+        <p>👻Available For Your Solutions</p> 
       </BannerSection>
     </StyledTopBanner>
   );

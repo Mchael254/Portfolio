@@ -17,7 +17,7 @@ const AboutSection = () => {
     <>
       <StyledAboutSection id="about">
         <ImageContainer>
-          <StyledImage src="./images/profileImg.jpg" alt="Stanley" />
+          <StyledImage src="./images/profileImg.jpg" alt="Michael" />
           <DarkCircle />
           <GradientCircle />
         </ImageContainer>
@@ -45,14 +45,11 @@ const AboutSection = () => {
             development process. Additionally, I utilize
             <StyledSpan> Tailwind CSS</StyledSpan> to streamline styling and
             design, maintaining a clean and modular codebase. With experience in
-             <StyledSpan> WordPress</StyledSpan>, I showcase versatility in handling diverse platforms.
+             <StyledSpan> Angular</StyledSpan>, I showcase versatility in handling diverse platforms.
             Explore my portfolio to witness the synergy of this comprehensive
             tech stack in action through a collection of projects that reflect
             my dedication to innovation and quality in web development.
           </p>
-          <CTAButton href="https://hashnode.com/@StanoN" target="_blank">
-            Visit My Blog
-          </CTAButton>
         </AboutContent>
       </StyledAboutSection>
       <hr />
