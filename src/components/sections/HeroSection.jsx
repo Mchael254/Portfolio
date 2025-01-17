@@ -18,7 +18,7 @@ const HeroSection = () => {
         <h3>{"{Software Developer}"}</h3>
         <p>
           HTML | CSS | JavaScript | React | NodeJS | Angular | TypeScript |
-          MongoDB | Tailwind CSS | WordPress | NextJS
+          MongoDB | Tailwind CSS | Express | NextJS | MSSQL
         </p>
         <div>
           <CTAButton href="#projects">Projects</CTAButton>

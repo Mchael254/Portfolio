@@ -1,61 +1,53 @@
 export const Projects = [
   {
-    thumbnail: "./images/modern-bank-website.png",
-    title: "Modern Cycling Website",
-    tags: ["Angular", "CSS"],
-    paragraph:
-      "Introducing my modern Cyclist website, a dynamic and user-friendly platform developed with cutting-edge technologies. Leveraging the power of Angular, the website ensures a seamless and responsive user interface, providing an immersive cycling experience. ",
-    codelink: "https://github.com/Mchael254/A-RIDERS-APP",
-    projectLink: "https://ariders.web.app/profile/",
-    projectLinkText: "View Project",
-  },
-  {
-    thumbnail: "./images/EcomerceWebsite.png",
-    title: "A-Riders Web App",
+    thumbnail: "./images/cy.png",
+    title: "Modern Cycling Web App",
     tags: [
-      "NextJS",
-      "ReactJS",
+      "Angular",
+      "MSSQL",
       "TypeScript",
-      "Tailwind",
-      "Prisma",
-      "mongoDB",
-      "MaterialUI",
+      "Nodejs",
+      "Express",
       "Daraja API",
     ],
     paragraph:
-      "A comprehensive online shopping solution built with NextJS to deliver a seamless and efficient user experience. This dynamic platform goes beyond traditional Ecommerce by allowing users to effortlessly browse, order, and purchase high-quality electronics. The integration of NextJS ensures optimal server rendering, enhancing performance and providing users with swift navigation. One of the standout features of this project is its secure payment processing, powered by Stripe.",
-    codelink: "https://github.com/Sstanley45/TechHub-E-Commerce-NextJS",
-    projectLink: "https://tech-hub-e-commerce.vercel.app/",
-    projectLinkText: "View Project",
+      "A modern cycling app designed with Angular to provide an intuitive and engaging experience for cycling enthusiasts. This app goes beyond tracking rides by offering features like route planning, performance analytics, and community engagement. Angular ensures a responsive and seamless interface, enabling users to explore features effortlessly. One of the standout functionalities includes real-time ride tracking and activity sharing, ensuring cyclists stay connected and motivated.",
+    codelink: "https://github.com/Mchael254/A-RIDERS-APP",
+    projectLink: "https://ariders.web.app/",
+
+
+  },
+  {
+    thumbnail: "./images/EcomerceWebsite.png",
+    title: "Shoplify E-Commerce Electronic Web App",
+    tags: [
+      "Angular",
+      "MSSQL",
+      "TypeScript",
+      "Nodejs",
+      "Express",
+      "Daraja API",
+    ],
+    paragraph:
+      "A comprehensive online shopping solution built with Angular to deliver a seamless and efficient user experience. This dynamic platform goes beyond traditional Ecommerce by allowing users to effortlessly browse, order, and purchase high-quality electronics. The integration of Angular ensures optimal server rendering, enhancing performance and providing users with swift navigation. One of the standout features of this project is its secure payment processing, powered by Daraja API.",
+    codelink: "https://github.com/Mchael254/Shoplify",
+    
+
   },
   {
     thumbnail: "./images/chat-app.png",
-    title: "Real-time Chat App",
-    tags: ["ReactJS", "AppWrite", "CSS"],
+    title: "Talky Chat App",
+    tags: ["Angular", "MSSQL", "ExpressJS", "NodeJS"],
     paragraph:
-      "Presenting my real-time Chat app, a dynamic communication platform crafted with React and powered by Appwrite, an open-source backend as a service (BaaS) solution. This project seamlessly combines the interactive capabilities of React with the robust backend services offered by Appwrite, allowing users to engage in real-time conversations effortlessly. The integration with Appwrite ensures secure and efficient handling of backend functionalities, providing a reliable foundation for the chat application.",
-    codelink: "https://github.com/Sstanley45/Real-time-Chat-App",
-    projectLink: "https://texty-omega.vercel.app/",
-    projectLinkText: "View Project",
+      "Presenting my real-time Chat app, a dynamic communication platform crafted with Angular and powered by MSSQL, Microsoft's SQL Database. This project seamlessly combines the robust capabilities of Angular with the robust backend services offered by Nodejs, allowing users to engage in real-time conversations effortlessly. The integration with Nodejs ensures secure and efficient handling of backend functionalities, providing a reliable foundation for the chat application.",
+    codelink: "https://github.com/Mchael254/Talky",
   },
   {
     thumbnail: "./images/prompt-share.png",
-    title: "Prompt Share Web App",
-    tags: ["NextJS", "Tailwind CSS"],
+    title: "University Chatbot",
+    tags: ["Html", "Flask", "Python", "nltk", "tensorflow"],
     paragraph:
-      "Introducing Prompt App, a web application meticulously crafted with Next.js 13, offering users a seamless platform to create, share, update, and delete prompts. With a focus on user convenience, the app facilitates easy access through Google account sign-in, streamlining the authentication process. This project showcases my proficiency in Next.js, harnessing the latest features to deliver a responsive and intuitive user experience. ",
-    codelink: "https://github.com/Sstanley45/Prompt-App_Next-JS",
-    projectLink: "https://prompts-app-mu.vercel.app/",
-    projectLinkText: "View Project",
-  },
-  {
-    thumbnail: "./images/jobify.png",
-    title: "Job Application Tracker",
-    tags: ["ReactJs", "CSS", "NodeJS", "ExpressJS", "MongoDB"],
-    paragraph:
-      "Introducing Jobify, a MERN stack-powered web application designed to empower users in managing their job application process effectively. With a focus on user-centric features, Jobify allows individuals to seamlessly record and track their job applications. Leveraging MongoDB for data storage, Express for robust backend functionality, React for an interactive front end, and Node.js for scalable server-side operations, this app offers a comprehensive solution for job seekers.",
-    codelink: "https://github.com/Sstanley45/Jobify",
-    projectLink: "https://jobify-client-delta.vercel.app/landing",
-    projectLinkText: "View Project",
+      "Introducing the University Chatbot, a web application designed to enhance user interactions with intelligent conversational capabilities. Built using Flask and powered by Python libraries NLTK and TensorFlow, this chatbot provides users with a seamless platform for academic inquiries and support. The project highlights my expertise in natural language processing (NLP) and AI integration, delivering a responsive and engaging user experience.",
+    codelink: "https://github.com/Mchael254/University-chatbot",
   },
 ];

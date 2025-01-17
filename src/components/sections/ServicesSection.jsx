@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCode, FaLaptopCode, FaWordpress } from "react-icons/fa";
+import { FaCode, FaDatabase, FaLaptopCode, FaWordpress } from "react-icons/fa";
 
 import {
   IconWrapper,
@@ -32,27 +32,14 @@ const ServicesSection = () => {
 
           <SingleService>
             <IconWrapper>
-              <FaLaptopCode />
+              <FaDatabase />
             </IconWrapper>
-            <h1>Design to HTML</h1>
+            <h1>MSSQL Database Management</h1>
             <p>
-              I specialize in seamlessly translating your creative vision into a
-              responsive and well-structured HTML framework, ensuring a visually
-              stunning and functional representation of your designs on the web.
+            I specialize in creating, optimizing, and managing MSSQL databases to ensure robust, scalable, and efficient data solutions, providing a reliable backbone for your applications and business needs.
             </p>
           </SingleService>
 
-          <SingleService>
-            <IconWrapper>
-              <FaWordpress />
-            </IconWrapper>
-            <h1>WordPress</h1>
-            <p>
-              My services extend to WordPress, where I leverage my expertise to
-              create dynamic and visually captivating websites, tailored to meet
-              your unique needs and elevate your online presence.
-            </p>
-          </SingleService>
         </ServicesItems>
       </StyledServicesSection>
       <hr />
